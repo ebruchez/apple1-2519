@@ -1,6 +1,6 @@
 ## What it is
 
-This is a replacement board for the Signetics 2519 chip used in the Apple 1 computer.
+This is a replacement board for the Signetics 2519 chip used in the Apple-1 computer.
 
 ![2519 Replacement](v1.0/img/top.png)
 ![2519 Replacement](v1.0/img/bottom.png)
@@ -14,7 +14,7 @@ It is based on the work of Szillat and P-LAB, so I stand on the shoulders of gia
 
 ## Why is this useful?
 
-As of 2024, the 2519 has only a single source (and I think that this has been the case for a very long time). With shipping, that single chip would cost over USD 80.
+As of 2024, the 2519 has only a single source (and I think that this has been the case for a very long time). With shipping, that single chip would cost over USD 85.
 
 This board is a drop-in replacement for the original chip, and uses more modern and available 14557 shift registers. However, note that it is designed specifically to fit on the Apple-1 board, by straddling two chip sockets:
 
@@ -27,7 +27,7 @@ This board is a drop-in replacement for the original chip, and uses more modern 
 
 ## What's special about this specific board?
 
-The small-package SOIC-16 14557 chips used by the existing boards are not available from major electronics components stores (or only in very large quantities). When I built one, I had to buy the chips on eBay, and they are not reliably available there either. However, the Wide SOIC-16 chips are easily available. So this board is a simple redesign to support the wider chips. I managed to do this without making the board larger, partly by putting all the decoupling capacitors on the opposite side.
+The small-package SOIC-16 14557 chips used by the existing boards are not available from major electronics components stores (or only in very large quantities). When I built [P-LAB's SMD version](https://p-l4b.github.io/2519/), I had to buy the chips on eBay, and they are not reliably available there either. However, the Wide SOIC-16 chips are easily available. So this board is a simple redesign to support the wider chips. I managed to do this without making the board larger, partly by putting all the decoupling capacitors on the bottom side.
 
 ## Versions
 
