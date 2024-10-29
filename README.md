@@ -27,16 +27,12 @@ This board is a drop-in replacement for the original chip, and uses more modern 
 
 ## What's special about this specific board?
 
-The small-package SOIC-16 14557 chips used by the existing boards are not available from major electronics components stores (or only in very large quantities). When I built one, I had to buy the chiops on eBay, and they are not reliably available there either. However, the Wide SOIC-16 chips are easily available. So this board is a simple redesign to handle the wider chips. I managed to do this without making the board larger, partly by putting all the decoupling capacitors on the opposite side.
+The small-package SOIC-16 14557 chips used by the existing boards are not available from major electronics components stores (or only in very large quantities). When I built one, I had to buy the chips on eBay, and they are not reliably available there either. However, the Wide SOIC-16 chips are easily available. So this board is a simple redesign to support the wider chips. I managed to do this without making the board larger, partly by putting all the decoupling capacitors on the opposite side.
 
 ## Versions
 
 - [V1.0](v1.0): Initial version. I assembled one such board and it's been working fine.
 - [V1.1](v1.1): Version with fatter +5V traces. I haven't assembled this version yet.
-
-## WARRANTY AND DISCLAIMER
-
-This information is provided as-is, with no warranty. I have tested it on an Apple-1 reproduction, and it works for me. However, I cannot guarantee that it will work for you. I am not responsible for any damage to your Apple-1 (reproduction or original) or other equipment that may result from using this board. I am especially not responsible if you try this on an original Apple-1 and it doesn't work or, worse, destroys your priceless computer. Use at your own risk.
 
 ## BOM
 
@@ -47,3 +43,6 @@ This information is provided as-is, with no warranty. I have tested it on an App
 | 6        | 0.1uF Capacitor (0603) | [DigiKey - C0603C104K3RAC7082](https://www.digikey.com/en/products/detail/kemet/c0603c104k3rac7082/12700954) | [Mouser - 80-C0603C104K3R7082](https://www.mouser.com/ProductDetail/80-C0603C104K3R7082) |
 | 1        | 16-Pin Header          | [DigiKey - 220-1-16-003](https://www.digikey.com/en/products/detail/cnc-tech/220-1-16-003/3441516)           | N/A                                                                                      |
 | 1        | 14-Pin Header          | [DigiKey - 220-1-14-003](https://www.digikey.com/en/products/detail/cnc-tech/220-1-14-003/3441515)           | N/A                                                                                      |
+## WARRANTY AND DISCLAIMER
+
+__This information is provided as-is, with no warranty. I have tested it on an Apple-1 reproduction, and it works for me. However, I cannot guarantee that it will work for you. I am not responsible for any damage to your Apple-1 (reproduction or original) or other equipment that may result from using this board. I am especially not responsible if you try this on an original Apple-1 and it doesn't work or, worse, destroys your priceless computer. Use at your own risk.__
