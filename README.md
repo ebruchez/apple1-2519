@@ -32,7 +32,9 @@ The small-package SOIC-16 14557 chips used by the existing boards are not availa
 ## Versions
 
 - [V1.0](v1.0): Initial version. I assembled one such board and it's been working fine.
-- [V1.1](v1.1): Version with fatter +5V traces, additional via for decoupling capacitors. I HAVEN'T TESTED THIS VERSION YET.
+- [V1.1](v1.1): Version with fatter +5V traces, additional via for decoupling capacitors.
+    - I HAVEN'T TESTED THIS VERSION YET.
+    - 2025-01-02: I got a report from someone who tested this successfully :)
 
 ## BOM
 
